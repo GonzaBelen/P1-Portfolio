@@ -5,12 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="stylesheet" href="../css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
   <title>Practica JS</title>
 </head>
 
 <body>
 
-  <!--ejericio1-->
+  <!--ejericio 1-->
   <div>
     <h1>Ejercicio 1</h1>
     <p>Ingresar tres valores e indicar cual es el mayor y cual el menor.</p>
@@ -26,18 +30,18 @@
     </div>
   </div>
 
-  <!--ejericio2-->
+  <!--ejericio 2-->
   <div>
     <h1>Ejercicio 2</h1>
     <p>Ingresar dos valores, sumarlos y mostrar el resultado en un tercer input.
     </p>
     <div>
-      <input placeholder="Primer numero" type="number" id="ejecicio2Num1">
-      <input placeholder="Segundo numero" type="number" id="ejecicio2Num2">
+      <input placeholder="Primer numero" type="number" id="ejercicio2Num1">
+      <input placeholder="Segundo numero" type="number" id="ejercicio2Num2">
 
       <button type="button" onclick="ejercicio2()">calcular</button>
 
-      <input placeholder="Resultado" type="text" id="ejecicio2Resultado">
+      <input placeholder="Resultado" type="text" id="ejercicio2Resultado">
     </div>
   </div>
 
@@ -57,7 +61,7 @@
   <!--ejercicio 4-->
   <div>
     <h1>Ejercicio 4</h1>
-    <p>Realizar un conversor de temperatura: de grados centígrados a Celsius y viceversa. Deberá tener dos input y un botón.</p>
+    <p>Realizar un conversor de temperatura: de grados Fahrenheit a Celsius y viceversa. Deberá tener dos input y un botón.</p>
     <div>
       <input placeholder="Ingrese °C" type="number" id="ejercicio4Gc">
       <input placeholder="Ingrese °F" type="number" id="ejercicio4Gf">
@@ -67,6 +71,92 @@
       <p id="ejercicio4Resultado"></p>
     </div>
   </div>
+
+  <!--ejercicio 5-->
+  <div>
+    <h1>Ejercicio 5</h1>
+    <p>Ingresar una palabra y mostrar: < PALABRA > tiene < n > letras.</p>
+    <div>
+      <input placeholder="Escriba una palabra" type="text" id="ejercicio5Palabra">
+      
+      <button type="button" onclick="ejercicio5()">calcular</button>
+
+      <p id="ejercicio5Resultado"></p>
+    </div>
+  </div>
+
+  <!--ejercicio 6-->
+  <div>
+    <h1>Ejercicio 6</h1>
+    <p>Ingresar un número e indicar si es par.</p>
+    <div>
+      <input placeholder="Escriba un numero" type="number" id="ejercicio6Num">
+      
+      <button type="button" onclick="ejercicio6()">calcular</button>
+
+      <p id="ejercicio6Resultado"></p>
+    </div>
+  </div>
+
+  <!--ejercicio 7-->
+  <div>
+    <h1>Ejercicio 7</h1>
+    <p>Ingresar dos números y mostrar los múltiplos de 3 comprendidos entre ambos.</p>
+    <div>
+      <input placeholder="Escriba un numero" type="number" id="ejercicio7Num1">
+      <input placeholder="Escriba otro numero" type="number" id="ejercicio7Num2">
+        
+      <button type="button" onclick="ejercicio7()">calcular</button>
+  
+      <p id="ejercicio7Resultado"></p>
+    </div>
+   </div>
+    
+  <!--ejercicio 8-->
+  <div>
+    <h1>Ejercicio 8</h1>
+    <p>Mostrar los números primos hasta un número ingresado por el usuario.</p>
+    <div>
+      <input placeholder="Escriba un numero" type="number" id="ejercicio8Num">
+      
+      <button type="button" onclick="ejercicio8()">calcular</button>
+
+      <p id="ejercicio8Resultado"></p>
+    </div>
+  </div>
+
+  <!--ejercicio 9-->
+  <div>
+    <h1>Ejercicio 9</h1>
+    <p>Ingresar un nombre, un apellido, una edad y un ciudad de nacimiento,  crear un párrafo y completar la siguiente frase: "Mi nombre es NOMBRE APELLIDO, tengo EDAD años. Nací en la ciudad de CIUDAD."</p>
+    <div>
+      <input placeholder="Escriba su nombre" type="text" id="ejercicio9Nombre">
+      <input placeholder="Escriba su apellido" type="text" id="ejercicio9Apellido">
+      <input placeholder="Escriba su edad" type="number" id="ejercicio9Edad">
+      <input placeholder="Escriba el nombre de su ciudad" type="text" id="ejercicio9Ciudad">
+
+      <button type="button" onclick="ejercicio9()">rellenar</button>
+
+      <p id="ejercicio9Resultado"></p>
+    </div>
+  </div>
+
+  <!--ejercicio 10-->
+  <div>
+    <h1>Ejercicio 10</h1>
+    <p>Ingresar dos valores enteros y enumerar los elementos que los separan. 
+      Ejemplo 1: 2 y 6 --> 3 , 4, 5
+      Ejemplo 2: 10 y 5 --> 9, 8, 7, 6</p>
+    <div>
+      <input placeholder="Escriba un numero" type="number" id="ejercicio10Num1">
+      <input placeholder="Escriba otro numero" type="number" id="ejercicio10Num2">
+  
+      <button type="button" onclick="ejercicio10()">calcular</button>
+
+      <p id="ejercicio10Resultado"></p>
+    </div>
+  </div>
+
   <script src="../JS/main.js"></script>
   <!-- <script src="index.js"></script> -->
 </body>
