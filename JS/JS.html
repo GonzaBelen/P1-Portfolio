@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica JS</title>
+</head>
+
+<body>
+
+  <!--ejericio1-->
+  <div>
+    <h1>Ejercicio 1</h1>
+    <p>Ingresar tres valores e indicar cual es el mayor y cual el menor.</p>
+    <div>      
+      <input placeholder="Numero 1" type="number" id="ejercicio1Num1">   
+      <input placeholder="Numero 2" type="number" id="ejercicio1Num2"> 
+      <input placeholder="Numero 3" type="number" id="ejercicio1Num3">
+    
+      <button type="button" onclick="ejercicio1()">calcular</button>
+    
+      <p>El mayor numero ingresado fue: <span id="ejercicio1Nmayor">0</span></p>
+      <p>El menor numero ingresado fue: <span id="ejercicio1Nmenor">0</span></p>
+    </div>
+  </div>
+
+  <!--ejericio2-->
+  <div>
+    <h1>Ejercicio 2</h1>
+    <p>Ingresar dos valores, sumarlos y mostrar el resultado en un tercer input.
+    </p>
+    <div>
+      <input placeholder="Primer numero" type="number" id="ejecicio2Num1">
+      <input placeholder="Segundo numero" type="number" id="ejecicio2Num2">
+
+      <button type="button" onclick="ejercicio2()">calcular</button>
+
+      <input placeholder="Resultado" type="text" id="ejecicio2Resultado">
+    </div>
+  </div>
+
+  <!--ejercicio 3-->
+  <div>
+    <h1>Ejercicio 3</h1>
+    <p>Ingresar una palabra y un numero "n". Repetir la palabra "n" veces.</p>
+    <div>
+      <input placeholder="Escribir una palabra" type="text" id="ejercicio3Palabra">
+      <input placeholder="Repetir la plabra" type="numbre" id="ejercicio3Num">
+
+      <button type="button" onclick="ejercicio3()">repetir</button>
+      <p id="ejercicio3Resultado"></p>
+    </div>
+  </div>
+
+  <!--ejercicio 4-->
+  <div>
+    <h1>Ejercicio 4</h1>
+    <p>Realizar un conversor de temperatura: de grados centígrados a Celsius y viceversa. Deberá tener dos input y un botón.</p>
+    <div>
+      <input placeholder="Ingrese °C" type="number" id="ejercicio4Gc">
+      <input placeholder="Ingrese °F" type="number" id="ejercicio4Gf">
+
+      <button type="button" onclick="ejercicio4()">convertir</button>
+
+      <p id="ejercicio4Resultado"></p>
+    </div>
+  </div>
+  <script src="../JS/main.js"></script>
+  <!-- <script src="index.js"></script> -->
+</body>
+
+</html>

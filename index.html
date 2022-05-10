@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="stylesheet" href="./css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
   <title>Portfolio Belen</title>
+
 </head>
-<body>
-  <h1>PORFOLIO</h1>
-  <img src="./Assets/Retrato.jpeg" alt="Retrato personal">
-  <H2>PRESENTACIÓN</H2>
-  <P>Mi nombre es Gonzalo Belen, soy estudiande regular de segundo año de la licenciatura "Producción de videojuegos y entretenimiento digital" la cual se estudia en la <em>"Unicersidad nacional de Rafaela"</em> o <em>"UNRaf"</em>. Tengo 20 años, soy de la ciudad de "Esperanza" y mi principal motivación es recaudar la mayor cantidad de experiencias posibles en el mundo tecnológico, centrándome en el ámbito de los videojuegos.</P>
-  <h2>UN POCO SOBRE MI</h2>
-  <p>Ahora mismo estoy viviendo en Esperanza en la casa de mis padres, estudio en Rafaela y viajo tres dias por semana para cursar las tres principales materias que conforman el segundo año de mi carrera, mientras tanto voy a rendir libre dos de las cinco materias del segundo año, las cuales son, fisica 1 e ingles 1. Estudie tanto el primario como el secundario en Esperanza, la primaria en la escuela N°314 <em>"José de San Martín"</em> y el secundario en la <em>"Escuela de Educación Técnico Profesional N°455 - Gral. Don José de San Martín"</em> o <em>"E.E.T.P N°455"</em> en la cual complete el estudio de <em>"Técnico Especializado en Instalaciones Electromecanicas"</em> con un promedio general de 7,2. Mi pasatiempo favorito son los videojuegos como asi tambien el juego de rol "Dungeons And Dragons".</p>
-  <H2>LISTA DE MIS 5 JUEGOS FAVORITOS</H2>
-  <ol>
-    <li>
-      <b>Red Dead Redemption 2</b>
-    </li>
-    <li>
-      <b>Fallout: New Vegas</b>
-    </li>
-    <li>
-      <b>Half Life 2</b>
-    </li>
-    <li>
-      <b>The Witcher 3</b>
-    </li>
-    <li>
-      <b>Undertale</b>
-    </li>
-  </ol>
-  <h2>ALGO SOBRE D&D</h2>
-  <p>Comence a jugar D&D a mediados del 2016, este año cumpliría 6 años de juego. Si bien, los primeros años de juego era un "Player", la separación de mi grupo y el conseguir uno nuevo de jugadores inexpertos me convirtio en el "Dungeon Master", desde ese momento en adelante me concentro casi totalmente en ser el maestro. Me considero un jugador experimentado y dedicado totalmente con el juego, ahora mismo estoy trabajando en un proyecto ambicioso para poder adaptar el mundo de la saga de libros y juegos "The witcher" al mundo de "Dungeons And Dragons", con una campaña totalmente de mundo abierto donde los jugadores toman el rol de cazarrecompensas entrenados por un brujo expulsado de su escuela.</p>
-  <a href="./contacto.html"><h2>CONTACTO</h2></a>
+
+<body class="parent"> 
+
+    <header class="div1">
+      <img src="./Assets/Retrato.jpeg" class="imgR" id="retrato" alt="Retrato personal">
+      <ul>
+        <li class="move">Inicio</li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./JS/JS.html">Practica JS</a></li>
+      </ul>
+    </header>
+    <main class="div3">
+      <H1 class="anchoajuste">PRESENTACIÓN</H1>
+      <div class="anchoajuste">
+        <P>Mi nombre es Gonzalo Belen, soy estudiande regular de segundo año de la licenciatura "Producción de videojuegos y entretenimiento digital" la cual se estudia en la <em>"Unicersidad nacional de Rafaela"</em> o <em>"UNRaf"</em>. Tengo 20 años, soy de la ciudad de "Esperanza" y mi principal motivación es recaudar la mayor cantidad de experiencias posibles en el mundo tecnológico, centrándome en el ámbito de los videojuegos.
+        </P>
+      </div>
+      <h2 class="anchoajuste">UN POCO SOBRE MI</h2>
+      <div class="anchoajuste">
+      <p>Ahora mismo estoy viviendo en Esperanza en la casa de mis padres, estudio en Rafaela y viajo tres dias por semana para cursar las tres principales materias que conforman el segundo año de mi carrera, mientras tanto voy a rendir libre dos de las cinco materias del segundo año, las cuales son, fisica 1 e ingles 1. Estudie tanto el primario como el secundario en Esperanza, la primaria en la escuela N°314 <em>"José de San Martín"</em> y el secundario en la <em>"Escuela de Educación Técnico Profesional N°455 - Gral. Don José de San Martín"</em> o <em>"E.E.T.P N°455"</em> en la cual complete el estudio de <em>"Técnico Especializado en Instalaciones Electromecanicas"</em> con un promedio general de 7,2. Mi pasatiempo favorito son los videojuegos como asi tambien el juego de rol "Dungeons And Dragons".</p>
+    </div>
+      <h2 class="anchoajuste">ALGO SOBRE D&D</h2>
+      <div class="anhcoajuste">
+      <p>Comence a jugar D&D a mediados del 2016, este año cumpliría 6 años de juego. Si bien, los primeros años de juego era un "Player", la separación de mi grupo y el conseguir uno nuevo de jugadores inexpertos me convirtio en el "Dungeon Master", desde ese momento en adelante me concentro casi totalmente en ser el maestro. Me considero un jugador experimentado y dedicado totalmente con el juego, ahora mismo estoy trabajando en un proyecto ambicioso para poder adaptar el mundo de la saga de libros y juegos "The witcher" al mundo de "Dungeons And Dragons", con una campaña totalmente de mundo abierto donde los jugadores toman el rol de cazarrecompensas entrenados por un brujo expulsado de su escuela.</p>
+    </div>
+  </main>
+  <aside class="div2">
+    <p>LISTA DE MIS 5 JUEGOS FAVORITOS</p>
+    <ol>
+      <li>
+        <b>Red Dead Redemption 2</b>
+      </li>
+      <li>
+        <b>Fallout: New Vegas</b>
+      </li>
+      <li>
+        <b>Half Life 2</b>
+      </li>
+      <li>
+        <b>The Witcher 3</b>
+      </li>
+      <li>
+        <b>Undertale</b>
+      </li>
+    </ol>
+  </aside>
+    <footer class="div4">
+        <div><p>Seguime en mis redes</p></div>
+        <div>
+          <a href="https://github.com/GonzaBelen">
+            <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>            
+            </a>
+        </div>
+    </footer>
+
 </body>
+
 </html>
